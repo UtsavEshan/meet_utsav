@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script>
+        const RoomId = "<%= roomId %>"; //the id of the room which is given in the url
+      </script>
+    <script src="/room.js" defer></script>
+    <title>Chat</title>
+</head>
+<body>
+    <video autoplay muted id="local_video"></video>
+    <footer>
+        <button>Present Now</button>
+    </footer>
+<script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+</body>
+</html>

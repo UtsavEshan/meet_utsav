@@ -1,0 +1,40 @@
+<!-- TODO may need to change localstorage to session storage -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="join.css">
+  </head>
+  <body>
+      <h1>Meet By Utsav</h1>
+    <div id="container">
+      <div class="select">
+        <label for="audioSource">Select Microphone </label
+        ><select id="audioSource"></select>
+      </div>
+
+      <div class="select">
+        <label for="audioOutput">Select Speakers </label>
+        <select id="audioOutput"></select>
+      </div>
+
+      <div class="select">
+        <label for="videoSource">Select Camera </label
+        ><select id="videoSource"></select>
+      </div>
+    </div>
+      <div class="video">
+          <video id="video" autoplay muted></video>
+ </div>
+    <button type="button" id="join"><p>Join Now</p> </button>
+    <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+
+    <script>
+      const ROOM_ID = "<%= roomId %>"; //the id of the room which is given in the url
+    </script>
+    <script src="join.js"></script>
+  </body>
+</html>

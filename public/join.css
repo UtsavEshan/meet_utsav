@@ -1,0 +1,61 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+
+}
+.video{
+    margin: 1rem;
+    position: relative;
+    float: left;
+
+}
+#video{
+    border-radius: 50px;
+    position: relative;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+}
+
+#join{
+    width: 182px;
+    height: 57px;
+    align-items: center;
+    border-radius: 50px;
+    background-color:#00786A ;
+    display: flex;
+    justify-content: center;
+    float: right;
+    margin-top: 5rem;
+    margin-right: 25rem;
+}
+p{
+    font-size: 24px;
+    text-align: center;
+    color: white;
+}
+
+select,label{
+    margin:20px;
+    display: block;
+    margin-right: 10em;
+}
+#container{
+    float: right;
+}
+select{
+    border:none;
+    text-shadow: 0 0 0 #000;
+    border-bottom: 1px solid black;
+}
+svg{
+    z-index: 2;
+    float: left;
+    margin-left: 10rem;
+}
+.mic{
+    z-index: 2;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
